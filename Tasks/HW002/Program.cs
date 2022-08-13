@@ -4,7 +4,7 @@ int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 
 int x = a * a;
-int y = b * b;
+
 
 Console.WriteLine("Квадрат числа A = " + x);
 
