@@ -4,6 +4,6 @@ int i = 1;
 
 while (i <= a)
 {
-    Console.Write(i*i*i + " " );
+    Console.Write(i*i*i + " " );   // "\t"
     i++;
 }
