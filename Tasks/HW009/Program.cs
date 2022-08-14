@@ -9,4 +9,4 @@ while (i <= n)
     fact = fact * i;
     i++;
 }
-Console.WriteLine("Произведение чисел: " + fact);
+Console.WriteLine("Произведение всех чисел: " + fact);

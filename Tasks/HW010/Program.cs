@@ -1,4 +1,5 @@
 ﻿// Показать кубы чисел, заканчивающихся на четную цифру       // "\t"
+Console.WriteLine("Введите число");
 int a = int.Parse(Console.ReadLine() ?? "0");
 int i = 1;
 int ch;
@@ -12,4 +13,3 @@ while (i <= a)
         
     }
 }
-
