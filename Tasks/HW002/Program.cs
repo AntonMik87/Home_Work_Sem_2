@@ -1,7 +1,7 @@
 ﻿// По двум заданным числам проверять является ли одно квадратом другого
 Console.WriteLine("Введите число A затем B");
-int a = int.Parse(Console.ReadLine());
-int b = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine() ?? "0");
+int b = int.Parse(Console.ReadLine() ?? "0");
 
 int x = a * a;
 
